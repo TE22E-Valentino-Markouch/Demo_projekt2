@@ -1,0 +1,23 @@
+h1{color: olive;}
+li{background-color: darksalmon;}
+ul{background-color: darkorange;}
+ol{background-color: orange;}
+button{
+    background-color: darkmagenta;
+    border: none;
+    color: forestgreen;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+font-size: 32px;
+}
+p{  color: black;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
