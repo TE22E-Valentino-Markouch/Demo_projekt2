@@ -1,23 +1,72 @@
-h1{color: olive;}
-li{background-color: darksalmon;}
-ul{background-color: darkorange;}
-ol{background-color: orange;}
-button{
-    background-color: darkmagenta;
-    border: none;
-    color: forestgreen;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-font-size: 32px;
-}
-p{  color: black;
-
+div {
+  border: 2px solid #d6001c;
+  border-radius: 10px;
+  margin: 3px;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    
+#div-bakgrund {
+  background-image: url(/snow_winter_trees.jpg);
+  background-size: cover;
+}
+
+#länkar {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+#länkar img {
+  height: 55px;
+}
+
+#länkar img,
+#vänster img {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin: 75px;
+  font-family: "Mountains of Christmas", cursive;
+  font-size: 59px;
+}
+
+#div-mellan {
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+}
+
+#vänster img {
+  height: 50px;
+}
+
+#vänster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+
+#main {
+  width: 90%;
+}
+#höger {
+  width: 5%;
+}
+
+#höger img {
+  width: 100%;
+  height: 400px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+#sidfot {
+  display: flex;
+  justify-content: center;
 }
